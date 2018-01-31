@@ -1,6 +1,8 @@
 class Owner
   # code goes here
   attr_accessor :dog, :cat, :fish, :pets, :name
+  attr_reader :species
+
   @@all = []
 
   def self.all
