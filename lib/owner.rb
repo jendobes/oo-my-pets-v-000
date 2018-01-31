@@ -44,6 +44,6 @@ class Owner
     name = Fish.new(name)
     @pets[:fish] << name
   end
-  
+
 
 end
