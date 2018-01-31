@@ -24,6 +24,10 @@ class Owner
     @@all << self
   end
 
+  def say_species
+    puts @species
+  end
+
   def buy_cat(name)
     new_cat = Cat.new(name)
     @pets[:cats] << name
