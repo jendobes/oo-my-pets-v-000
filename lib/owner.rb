@@ -35,5 +35,11 @@ class Owner
     @pets[:cats] << name
   end
 
+  def buy_deg(name)
+    name = Dog.new(name)
+    @pets[:dogs] << name
+  end
+
+  
 
 end
